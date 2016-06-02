@@ -1,0 +1,28 @@
+Source: certmaster
+Section: admin
+Priority: extra
+Maintainer: TMI Calibre <tmi-calibre@edf.fr>
+Build-Depends: debhelper (>= 8.0.0),
+               python-all-dev (>= 2.6.6-3~)
+Standards-Version: 3.9.3
+Homepage: https://fedorahosted.org/certmaster/
+
+Package: certmaster
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends},
+         python-openssl
+Description: set of tools for distributing SSL certificates to applications
+ Certmaster is a set of tools and a library for easily distributing SSL 
+ certificates to applications that need them. Certmaster originated in the 
+ Func project.
+ .
+ Any application can use certmaster for easy exchange of SSL certificates.
+ Certmaster has a a Python API and command line tool provided 
+ "certmaster-request" for requesting certificates.
+ A daemon, called "certmaster" is included to hand certificates out.
+ The tool "certmaster-ca" is used to list certs and sign them when requests 
+ come in.
+ Autosigning of new certificate requests is also supported but is off 
+ by default.
+ Configuration is all done via minimal text files.
+ Certmaster has extensive audit logs of certificate operations.

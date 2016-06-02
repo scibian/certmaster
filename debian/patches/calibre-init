@@ -1,0 +1,18 @@
+Index: certmaster-0.28/init-scripts/certmaster
+===================================================================
+--- certmaster-0.28.orig/init-scripts/certmaster	2013-07-02 17:23:43.468432055 +0200
++++ certmaster-0.28/init-scripts/certmaster	2013-07-02 17:22:51.886480817 +0200
+@@ -7,9 +7,10 @@
+ 
+ ### BEGIN INIT INFO
+ # Provides: certmaster
+-# Required-Start: network
+-# Default-Start: 3 4 5
+-# Default-Stop: 0 1 2 6
++# Required-Start: networking
++# Required-Stop:
++# Default-Start: 2 3 4 5
++# Default-Stop: 0 1 6
+ # Short-Description: certificate master for Fedora Unified Network Control 'master server only'
+ # Description: certificate master to sign/manage ca/cert infrastructure
+ ### END INIT INFO

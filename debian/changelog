@@ -1,0 +1,33 @@
+certmaster (0.28-3+c9+1) calibre9; urgency=medium
+
+  * Import into Calibre9.
+
+ -- Yann Soubeyrand <yann-externe.soubeyrand@edf.fr>  Thu, 02 Jun 2016 10:08:01 +0200
+
+certmaster (0.28-3+c8+1) calibre8; urgency=low
+
+  * Import into Calibre8.
+
+ -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Fri, 08 Nov 2013 12:16:47 +0100
+
+certmaster (0.28-3) calibre7; urgency=low
+
+  * Packaging updates:
+    - Switch from arch:any to arch:all
+    - Improve descriptions and switch maintainer to TMI Calibre.
+    - Improve copyright file.
+    - Small tweaking in debian/rules.
+
+ -- Ana Guerrero <ana-externe.guerrero@edf.fr>  Fri, 08 Nov 2013 11:34:08 +0100
+
+certmaster (0.28-2) calibre7; urgency=low
+
+  * Correction du script d'init.d
+
+ -- Gregoire Menuel <gregoire-externe.menuel@edf.fr>  Tue, 02 Jul 2013 14:44:37 +0200
+
+certmaster (0.28-1) calibre7; urgency=low
+
+  * Initial release (Closes: #1212)
+
+ -- Gregoire Menuel <gregoire-externe.menuel@edf.fr>  Mon, 06 May 2013 17:38:28 +0200
