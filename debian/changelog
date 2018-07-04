@@ -1,3 +1,9 @@
+certmaster (0.28-3sci9u1) scibian9; urgency=medium
+
+  * Scibian9 rebuild.
+
+ -- Ibrahim M'MAKA <ibrahim-externe.m-maka@edf.fr>  Wed, 04 Jul 2018 11:55:05 +0200
+
 certmaster (0.28-3+c9+1) calibre9; urgency=medium
 
   * Import into Calibre9.
