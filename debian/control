@@ -1,11 +1,13 @@
 Source: certmaster
 Section: admin
 Priority: extra
-Maintainer: TMI Calibre <tmi-calibre@edf.fr>
+Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 8.0.0),
                python-all-dev (>= 2.6.6-3~)
 Standards-Version: 3.9.3
 Homepage: https://fedorahosted.org/certmaster/
+Vcs-Git: https://github.com/scibian/certmaster.git
+Vcs-Browser: https://github.com/scibian/certmaster
 
 Package: certmaster
 Architecture: all
